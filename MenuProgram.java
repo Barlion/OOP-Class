@@ -52,7 +52,6 @@ public class MenuProgram {
         Scanner scanner = new Scanner(System.in);
         int subChoice = scanner.nextInt();
         if (subChoice == 0) {
-            // Return to the main menu
             return;
         }
         if (subChoice == 1) {
@@ -72,9 +71,7 @@ public class MenuProgram {
         Scanner scanner = new Scanner(System.in);
         int moreChoice = scanner.nextInt();
         if (moreChoice == 0) {
-            // Return to the main menu
             return;
         }
-        // Handle additional options here
     }
 }
